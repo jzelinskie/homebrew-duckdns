@@ -43,6 +43,7 @@
 
 <ol>
 <li><code>$ brew install duckdns</code></li>
+<li><code>$ ln -sfv /usr/local/opt/duckdns/*.plist ~/Library/LaunchAgents</code></li>
 <li><code>$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.duckdns.plist</code></li>
 <li>Make a $HOME/.duckdns config file like so:</li>
 </ol><div class="highlight highlight-bash"><pre><span class="nv">DOMAIN</span><span class="o">=</span><span class="s2">"example"</span>
