@@ -1,0 +1,1 @@
+{"name":"DuckDNS","tagline":"automatically update duckdns via launchd on OSX","body":"# installation\r\n\r\n1. `$ brew install duckdns`\r\n2. Make a $HOME/.duckdns config file:\r\n\r\n```bash\r\nDOMAIN=\"example\"\r\nTOKEN=\"11111111-1111-1111-1111-111111111111\"\r\n```\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
