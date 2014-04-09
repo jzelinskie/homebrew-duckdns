@@ -1,9 +1,9 @@
 require "formula"
 
 class Duckdns < Formula
-  homepage "http://jzelinskie.com/duckdns"
-  url "https://github.com/jzelinskie/duckdns/archive/1.0.tar.gz"
-  sha1 "93d8efd9e6862a678ce3a7b0e07d6ab19d8f9af6"
+  homepage "http://jzelinskie.com/homebrew-duckdns"
+  url "https://github.com/jzelinskie/homebrew-duckdns/archive/1.0.tar.gz"
+  sha1 "e44316847fcacb88995a39769d1ac5bdaad1bc9a"
 
   def install
     bin.install 'duckdns'
