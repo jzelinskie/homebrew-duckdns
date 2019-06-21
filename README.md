@@ -8,7 +8,7 @@ Now if only there was a simple way to automate the updating of my IP address to 
 
 1. `$ brew tap jzelinskie/duckdns`
 2. `$ brew install duckdns`
-3. `$ ln -sfv /usr/local/opt/duckdns/*.plist ~/Library/LaunchAgents`
+3. `$ ln -sfv /usr/local/opt/duckdns/*.plist ~/Library/LaunchAgents/`
 4. `$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.duckdns.plist`
 5. Make a $HOME/.duckdns config file like so:
 
