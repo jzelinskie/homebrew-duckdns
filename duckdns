@@ -4,6 +4,7 @@ CONFIG_FILE="$HOME/.duckdns"
 
 if [[ -f $CONFIG_FILE ]]; then
   . $CONFIG_FILE
-  echo url="https://www.duckdns.org/update?domains=$DOMAIN&token=$TOKEN&ip=" | \
+  IPV6=$(curl -s https://api6.ipify.org)
+  echo url="https://www.duckdns.org/update?domains=$DOMAIN&token=$TOKEN&ip=&ipv6=$IPV6" | \
     curl -k -o $HOME/.duckdns.log -K -
 fi
