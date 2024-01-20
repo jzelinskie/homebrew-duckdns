@@ -9,6 +9,10 @@ class Duckdns < Formula
     bin.install 'duckdns'
   end
 
+  service do
+    name macos: "#{plist_name}"
+  end
+  
   test do
     system "#{bin}/duckdns"
   end
